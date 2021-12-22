@@ -62,7 +62,7 @@ function calculate2() {
         count = parseInt(count);
     
         if (!(Number.isInteger(type) && Number.isInteger(count)) && !(count > 0 && count < 10000)) {
-        res="error";
+   
         } else {
             for (var i = 0; i < radio.length; i++) {
                 if (radio[i].checked) {
